@@ -59,7 +59,7 @@ function fillPhotoPopupInfo(photoIndex, nameIndex) {
 	UI_ELEMENTS.popupCardSrc.src = photoIndex;
 }
 function like(event){
-event.target.closest('.block-card__name-city').querySelector('.block-card__heart').classList.toggle('blackHeart')
+event.target.closest('.block-card__name-city').querySelector('.block-card__heart').classList.toggle('black-heart')
 }
 function createCard(card) {
 	const clone = UI_ELEMENTS.cloneCard.content.querySelector('.block-card__item').cloneNode(true);
